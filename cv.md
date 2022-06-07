@@ -5,4 +5,5 @@
 * Skills: JS (beginner), PHP, HTML, CSS
 * Code sample: `There could be a code here`
 * Work experience: Developed an app for 'MY CLUE' and did many more bad things.
-
+* Education: computer network technician.
+* English language: A1

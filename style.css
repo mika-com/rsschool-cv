@@ -200,3 +200,22 @@ footer {
 .RS-logo {
     width: 60px;
 }
+
+.dark {
+    background-color: rgb(15, 9, 44);
+    color: #e7e7e7;
+}
+
+.dark-footer {
+    background-color: rgb(38, 31, 77);
+    color: #e7e7e7;
+}
+
+.dark-section {
+    background-color: rgb(6, 0, 36);
+    color: #e7e7e7;
+}
+
+.dark-a {
+    color: #e7e7e7;
+}

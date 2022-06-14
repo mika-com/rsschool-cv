@@ -133,6 +133,70 @@ a {
     margin: 30px 0px 10px 0px;
 }
 
-.education-section, .languages-section {
+.education-section, .languages-section, .code-style-section, footer {
     margin-top: 20vh;
+}
+
+.name-education, .name-language  {
+    color: #4e4e4e;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.about-education, .about-language {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inner-parm-in-section > p:first-child {
+    margin-top: 0px;
+}
+.inner-column-skills > p:first-child {
+    margin-top: 0px;
+}
+
+.code-str-2 {
+    padding-left: 2em;
+}
+.code-str-3 {
+    padding-left: 4em;
+}
+
+.color-let {
+    color: #ff4f46;
+}
+
+.color-func {
+    color: #213bff;
+}
+
+.code {
+    font-weight: 400;
+    font-size: 24px;
+    /* font-family: 'Roboto'; */
+}
+
+footer {
+    height: 10vh;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.inner-content-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-github {
+    font-weight: 800;
+    color: #000;
+}
+
+.RS-logo {
+    width: 60px;
 }

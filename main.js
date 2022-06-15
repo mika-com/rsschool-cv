@@ -1,19 +1,28 @@
 'use strict'
 
 document.body.addEventListener('click', function(event) {
-    if (event.target.className = 'darkMode') {
-        onDark(event.target.dataset.isdark);
+    if (event.target.id == 'modeBTN') {
+        isDark(event.target.dataset);
     }
 })
 
-const onDark = (state) => {
-    if (state) {
-        document.querySelector('body').className = 'dark';
-        document.querySelector('header').className = 'dark';
-        document.querySelector('footer').className = 'dark-footer';
+const isDark = (state) => {
+    if (state.isDark == 'false') {
+        onDark('light');
+        state.isDark = true;
+    } else {
+        onDark('dark');
+        state.isDark = false;
+    }
+
+}
+
+const onDark = (mod) => {
+        document.querySelector('body').id = mod;
+        document.querySelector('header').id = mod;
+        document.querySelector('footer').id = `${mod}-footer`;
         let innerParmInSection = document.querySelectorAll('.inner-parm-in-section');
-        for (let item of innerParmInSection) {item.className += ' dark-section'}
+        for (let item of innerParmInSection) {item.id = `${mod}-section`}
         let aTag = document.querySelectorAll('a');
-        for (let item of aTag) {item.className += ' dark-a'}
-    }//полная чушь, но уже 6 утра...
+        for (let item of aTag) {item.id = `${mod}-a`}
 }

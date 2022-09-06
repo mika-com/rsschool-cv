@@ -23,3 +23,16 @@ I have good interpersonal skills, am an excellent team worker and very willing t
         if (num == 1) return false;
         return isEven(num-2);
 } ```
+
+## Experience
+Developed a website for a recreation center (design, HTML, CSS, JS, PHP (WP))
+
+## Education
+* University Dalnegorsk industrial and technological (Computer Network Technician)
+* Courses
+    * javascript.ru
+    * Hexlet.io
+* Books
+    * Eloquent JavaScript _(Marijn Haverbeke)_
+    * You don't know JS _(Kyle Simpson)_
+    * Programming PHP _(Kevin Tatroe and Peter Macintyre)_

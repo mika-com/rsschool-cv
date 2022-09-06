@@ -17,12 +17,14 @@ I have good interpersonal skills, am an excellent team worker and very willing t
 * JavaScript
 
 ## Code Example
-``` const isEven = (num) => {
-        if (num < 0) num = Math.abs(num);
-        if (num == 0) return true;
-        if (num == 1) return false;
-        return isEven(num-2);
-} ```
+```
+const isEven = (num) => {
+    if (num < 0) num = Math.abs(num);
+    if (num == 0) return true;
+    if (num == 1) return false;
+    return isEven(num-2);
+}
+```
 
 ## Experience
 Developed a website for a recreation center (design, HTML, CSS, JS, PHP (WP))

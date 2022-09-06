@@ -36,3 +36,6 @@ Developed a website for a recreation center (design, HTML, CSS, JS, PHP (WP))
     * Eloquent JavaScript _(Marijn Haverbeke)_
     * You don't know JS _(Kyle Simpson)_
     * Programming PHP _(Kevin Tatroe and Peter Macintyre)_
+
+## English
+A1...

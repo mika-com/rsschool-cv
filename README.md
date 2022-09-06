@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mika-com.github.io/rsschool-cv/cv
